@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:allowBackup="true"
+        android:icon="@drawable/ic_library"
         android:label="Ma Bibliothèque"
-        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+        android:theme="@style/AppTheme"
         android:usesCleartextTraffic="false">
         <activity
             android:name=".MainActivity"
